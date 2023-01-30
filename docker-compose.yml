@@ -10,9 +10,9 @@ services:
     environment:
       - APACHE2_PORT=9898
       - PASSPHRASE=MyPassword
-      - RWSOLS_COMPUTER_NAME="Pc1","Pc2"
-      - RWSOLS_COMPUTER_MAC="XX:XX:XX:XX:XX:XX","XX:XX:XX:XX:XX:XX"
-      - RWSOLS_COMPUTER_IP="192.168.1.45","192.168.1.50"
+      - RWSOLS_COMPUTER_NAME= {COMPUTER_NAME}
+      - RWSOLS_COMPUTER_MAC= {COMPUTER_MAC}
+      - RWSOLS_COMPUTER_IP= {COMPUTER_IP}
 
 ### ENV-file presets ###
 # Europe/Berlin
